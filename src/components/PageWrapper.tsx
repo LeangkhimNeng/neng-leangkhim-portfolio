@@ -14,7 +14,6 @@ const PageWrapper: React.FC<{ children: React.ReactNode }> = ({ children }) => {
       animate="animate"
       exit="exit"
       variants={pageVariants}
-      className="p-10"
     >
       {children}
     </motion.div>

@@ -6,9 +6,11 @@ const Navbar: React.FC = () => {
 
   return (
     <motion.nav
-      className={`fixed top-0 w-full p-4 flex justify-between items-center transition-all ${
+      className={`fixed top-0 w-full p-4 flex justify-between items-center transition-all 
+        ${
         darkMode ? "bg-[#0D1117] text-white" : "bg-[#F9FAFB] text-black"
-      }`}
+      }
+        `}
       initial={{ y: -50, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6 }}

@@ -18,13 +18,16 @@
 // export default Skills;
 
 const Skills: React.FC = () => (
-    <section className="bg-gray-700 py-12 px-8">
-      <h2 className="text-3xl text-center font-semibold">Skills</h2>
+    <section className="bg-black py-12 px-8">
+      <h2 className="text-3xl text-center font-semibold text-[#B48811]">Skills</h2>
       <div className="grid grid-cols-2 gap-8 mt-8 text-center">
-        <div className="bg-gray-600 shadow-lg p-8 rounded-lg">React</div>
-        <div className="bg-gray-600 shadow-lg p-8 rounded-lg">Node.js</div>
-        <div className="bg-gray-600 shadow-lg p-8 rounded-lg">HTML</div>
-        <div className="bg-gray-600 shadow-lg p-8 rounded-lg">CSS</div>
+        <div className="bg-[#B48811] text-white shadow-lg p-8 rounded-lg">React</div>
+        <div className="bg-[#B48811] text-white shadow-lg p-8 rounded-lg">Node.js</div>
+        <div className="bg-[#B48811] text-white shadow-lg p-8 rounded-lg">HTML</div>
+        <div className="bg-[#B48811] text-white shadow-lg p-8 rounded-lg">CSS</div>
+        <div className="bg-[#B48811] text-white shadow-lg p-8 rounded-lg">VueJs</div>
+        <div className="bg-[#B48811] text-white shadow-lg p-8 rounded-lg">HTML</div>
+        
       </div>
     </section>
   );

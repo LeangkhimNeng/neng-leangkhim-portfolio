@@ -29,23 +29,21 @@
 // export default App;
 import React from "react";
 import { AnimatePresence } from "framer-motion";
-import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 import PageWrapper from "./components/PageWrapper";
 import Hero from "./components/Hero";
-import About from "./components/About";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
-import Contact from "./components/Contact";
+import Skills from "./components/Skills";
 
 const App: React.FC = () => {
   return (
     <AnimatePresence>
-      <Navbar />
-      <PageWrapper>
+      <PageWrapper >
+        <Header/>
         <Hero />
-        <About />
-        <Projects />
-        <Contact />
+        <Skills />
+        <Projects />   
         <Footer />
       </PageWrapper>
     </AnimatePresence>

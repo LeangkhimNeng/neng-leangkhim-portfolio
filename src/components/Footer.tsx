@@ -1,7 +1,9 @@
 const Footer: React.FC = () => {
     return (
-      <footer className="footer bg-blue-600 text-white py-6 text-center">
-        <p>Contact: myemail@example.com</p>
+      <footer id="footer" className="footer bg-black text-[#B48811] border-t-1 border-[#B48811] text-xl font-light py-20 text-center">
+        <p>Contact: <br/>
+          Email : neng.leangkhim99@gmail.com <br/>
+          Phone number : 087884141</p>
       </footer>
     );
   };
