@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import profile from "../assets/profile.png"
 
 const Hero: React.FC = () => {
   return (
